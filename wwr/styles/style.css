@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     text-align: center;
     color: #FAFAFA;
     text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -24,6 +28,10 @@ main section{
 
 body {
     background-color: #FAFAFA;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -36,9 +44,13 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #FAFAFA;
-    color: #29363B;
+    background-color: #29363B;
+    color: #fafafa;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50x;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -53,10 +65,8 @@ nav a:hover {
 
 .msg {
     background-color: #FAFAFA;
-}
-
-.home-title {
-    color:#29363B
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 h4 {
@@ -65,15 +75,21 @@ h4 {
 
 .msg h2 {
     color: #29363B;
+    font-family: "Playfair display";
+    font-size: 2em;
 }
 
 .msg p{
     color: #29363B;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #29363B;
     color: #fafafa;
+    padding: 25px 50px;
+    margin-top: 100px;
 }
 
 footer a {
@@ -93,6 +109,10 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
@@ -100,6 +120,7 @@ footer p a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 
@@ -107,6 +128,34 @@ footer p a:hover{
     width: 100%;
 }
 
+.home-title {
+    color:#29363B;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
 /* * {
-    border: 2px solid blue;
+    border: 1px solid blue;
 } */
