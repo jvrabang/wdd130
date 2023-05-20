@@ -27,7 +27,7 @@ main section{
 
 body {
     background-color: #FAFAFA;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -74,7 +74,7 @@ h4 {
 
 .msg h2 {
     color: #29363B;
-    font-family: "Playfair display";
+    font-family: "Playfair display", Impact, 'Arial Narrow Bold';
     font-size: 2em;
 }
 
@@ -129,7 +129,7 @@ footer .social img {
 
 .home-title {
     color:#29363B;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', Impact, 'Arial Narrow Bold';
     font-size: 2em;
     margin-top: 10px;
 }
