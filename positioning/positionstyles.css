@@ -4,7 +4,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  gap: 20px
+  gap: 20px;
+  width: 600px;
+  margin: auto;
 }
 .red1 { 
   width: 100%; 
@@ -36,6 +38,7 @@
 .content2 {
   display: grid;
   grid-template-columns: repeat(5,50px);
+  padding-bottom: 200px;
 }
 
 .red2 {
@@ -79,6 +82,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 100px;
+  width: 800px;
+  margin: auto;
 }
 .red3 {
   width: 100%; 
@@ -157,9 +162,8 @@
 .yellow5 {
   width: 100%; 
   height: 275px; 
-  background-color: gold; 
-  
-
+  background-color:#F7FF00; 
+  /* Updated the color to match the image */
 } 
 .blue5 {
   width: 100%; 
