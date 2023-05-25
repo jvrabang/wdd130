@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+
+nav {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-family: "Playfair display", Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#welcome {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+img {
+    height: 180px;
+}
+
+#content-box1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#content-box2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#content-box3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#content-box4{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding-top: 25px;
+}
+
+#content-box5{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-top: 25px;
+}
+
+#content-box6{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    padding-top: 25px;
+}
+
+#word1{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#word2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#word3{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#word4{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+#word5{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+#word6{
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.button-box {
+    background-color: #29363B;
+    border-radius: 10px;
+    height: 70px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.text {
+    color: #fafafa;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.button-box:hover, .text:hover{
+    background-color: #F0C365;
+    color:#29363B
+}
+
+a1 {
+    padding: 18px 48px 18px 48px;
+}
+
+a2, a3{
+    padding: 5px 0px 5px 0px;
+}
+
+a4 {
+    padding: 19px 32px 19px 32px;
+}
+
+a5 {
+    padding: 18px 37px 18px 37px;
+}
+
+a6 {
+    padding: 18px 37px 18px 37px;
+}
+
+* {
+    border: 1px solid blue;
+}
