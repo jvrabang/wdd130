@@ -19,7 +19,6 @@ nav {
 
 #welcome {
     background-color: #29363B;
-    padding: 5px;
     width: 100%;
 }
 
@@ -28,8 +27,13 @@ h1{
     font-size: 2.5em;
     margin-top: 20px;
     margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px 10px 20px 10px;
     text-align: center;
+    margin: auto;
     color: #fafafa;
+    width: 90%;
 }
 
 img {
@@ -57,19 +61,19 @@ img {
 #content-box4{
     grid-column: 1/2;
     grid-row: 4/5;
-    padding-top: 25px;
+    padding-top:40px;
 }
 
 #content-box5{
     grid-column: 2/3;
     grid-row: 4/5;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 #content-box6{
     grid-column: 3/4;
     grid-row: 4/5;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 #word1{
@@ -146,7 +150,7 @@ img {
 
 footer {
     background-color: #29363B;
-    padding: 8px;
+    padding: 8px 0px 8px 0px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -158,6 +162,7 @@ footer p {
     font-size: 18px;
     margin-top: 8px;
     margin-left: 10px;
+    width: 90%;
 }
 
 #page-container {
