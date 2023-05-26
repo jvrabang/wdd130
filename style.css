@@ -13,7 +13,7 @@ nav {
     width: 900px;
     height: auto;
     text-align: center;
-    margin: auto;
+    margin: auto;   
     padding-bottom: 100px;
 }
 
@@ -111,41 +111,25 @@ img {
     border-radius: 10px;
     height: 70px;
     width: 250px;
+    box-sizing: border-box;
     margin: auto;
-    display: flex;
-    text-align: center;
 }
 
 .text {
     color: #fafafa;
     text-decoration: none;
-    margin: auto;
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .button-box:hover, .text:hover{
     background-color: #F0C365;
     color:#29363B
-}
-
-#a1 {
-    padding: 18px 48px 18px 48px;
-}
-
-#a2, #a3{
-    padding: 5px 0px 5px 0px;
-}
-
-#a4 {
-    padding: 19px 32px 19px 32px;
-}
-
-#a5 {
-    padding: 18px 37px 18px 37px;
-}
-
-#a6 {
-    padding: 18px 37px 18px 37px;
 }
 
 footer {
