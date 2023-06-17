@@ -210,6 +210,10 @@ nav a:hover {
   font-weight: 900;
 }
 
+.wireframes {
+  width: 80%;
+}
+
 /* * {
     border: 1px solid blue;
 } */
