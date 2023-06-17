@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Merriweather:wght@300;700&display=swap');
+
+body {
+    background-color: rgb(27, 25, 25);
+}
+
+h1, h2, h3, p{
+    font-family: "Merriweather";
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    color:#3f5b8b;
+}
+
+h1{
+    margin-top: -10px;
+}
+
+main p {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(116, 86, 86);
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#content {
+    background-color: white;
+    max-width: 450px;
+    height: 850px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#header-img {
+    width: 100%;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+footer {
+    margin-top: 57px;
+}
+
+#footer-box {
+    background-color: #3f5b8b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 120px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    margin: auto;
+    font-size: 40px;
+    font-family: "Cormorant Garamond";
+}
+
+.small {
+    font-size: 16px;
+}
+
+.big {
+    margin-top: 20px;
+}
+
+#box1 {
+    border-right: 1px solid;
+    border-color: aliceblue;
+}
+
+#box2 {
+    border-right: 1px solid;
+    border-color: aliceblue;
+}
+
+
+.text-box {
+    height: 120px;
+}
+
+/* 
+* {
+    border: 1px solid blue;
+} */
