@@ -394,14 +394,16 @@ nav {
     background-color: #29363B;
     color: #FAFAFA;
     cursor: pointer;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     border: none;
     text-align: left;
     outline: none;
     width: 100%;
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 22px;
-    padding: 20px;
     margin-top: 10px;
 }
 
@@ -419,6 +421,7 @@ nav {
     font-weight: bold;
     float: right;
     margin-left: 30px;
+    padding-right: 20px;
 }
 
 .active:after {
@@ -451,6 +454,7 @@ nav {
     font-weight: bold;
     margin-bottom: 5px;
     color: #FAFAFA;
+    padding-left: 30px;
 }
 
 .form-box input,
@@ -511,6 +515,14 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
+
+.faq-texts p{
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
 
 .contact-box4{
     grid-column: 1/19;
