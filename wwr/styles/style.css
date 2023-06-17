@@ -382,6 +382,8 @@ nav {
 .bold {
     font-weight: 700;
     font-size: 1.2em;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .content {
@@ -523,6 +525,8 @@ nav {
 
 h3 {
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .contact-logos {
