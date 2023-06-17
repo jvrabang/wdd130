@@ -63,7 +63,7 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 
-p {
+p, li{
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
@@ -179,3 +179,37 @@ nav a:hover {
     width: 300px;
     content: auto;
 }
+
+.justify{
+  text-align: left;
+}
+
+.home-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 900px;
+  margin: 0 auto;
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.products-page, .faqs-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 660px;
+  margin: 0 auto;
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.home-page img, .products-page img, .faqs-page img{
+  width: 300px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+/* * {
+    border: 1px solid blue;
+} */
