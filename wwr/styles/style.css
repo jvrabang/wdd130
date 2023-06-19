@@ -429,7 +429,8 @@ nav {
 }
 
 .container{
-    max-width: 600px;
+    width: 600px;
+    height: 800px;
     margin: 0 auto;
     margin-left: 0;
     margin-right: 0;
