@@ -107,7 +107,7 @@ h4 {
     font-size: 2em;
 }
 
-.msg p, .msg2 h4, .contact-box2 p {
+.msg p, .msg2 p, .contact-box2 p {
     color: #fafafa;
     font-size: .8em;
     padding-bottom: 15px;
