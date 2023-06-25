@@ -440,6 +440,21 @@ nav {
     opacity: .97;
 }
 
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
 .container h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -452,10 +467,9 @@ nav {
 
 .form-box label {
     display: block;
-    font-weight: bold;
+    font-size: .8em;
     margin-bottom: 5px;
     color: #FAFAFA;
-    padding-left: 30px;
 }
 
 .form-box input,
