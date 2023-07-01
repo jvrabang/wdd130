@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crafty Bookworm PH</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div class="special-offers-box">
@@ -14,7 +15,15 @@
             <img src="img/logo.png" alt="Crafty Bookworm PH Logo">
         </a>
         <div id="searchbar">
-            <input type="text" placeholder="Search">
+            <div class="wrapper">
+                <div class="searchBar">
+                  <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+                  <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
         </div>
         <nav>
             <a href="index.html">Home</a>
@@ -24,100 +33,177 @@
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img src="img/home1.jpg" alt="Buy Good Books">
+            <img id="hero-img" src="img/home7.jpg" alt="Books">
         </div>
+        <div id="hero-bg"></div>
         <section id="hero-msg">
             <h1>Limited Offers!</h1>
             <h4>When you visit Crafty Bookworm PH, you'll discover a one-of-a-kind online platform designed just for you. We understand your passion for books and crafts, and that's why we've created a seamless shopping experience that brings together the best of both worlds. No more hopping from one website to another or browsing through numerous physical stores. With Crafty Bookworm PH, you'll find everything you need in one convenient place.</h4>
             <div class="button-box">
-                <a href="products.html" target="_blank">Shop Now!</a>
+                <a class="shop-now" href="products.html">Shop Now!</a>
             </div>
         </section>
     </div>
     <main>
-        <section>
-            <div>
+        <section class="featured">
+            <div class="featured-box">
                 <h2>New Arrival</h2>
-                <img src="img/book5.jpg" alt="New Arrival">
-                <p>Life in Five Senses" by Gretchen Rubin shares a personal journey of self-discovery through exploring the senses, unlocking a vibrant and mindful way of living.</p>
+                <img class="featured-books" src="img/book5.jpg" alt="New Arrival">
+                <div class="featured-desc">
+                    <p>Life in Five Senses" by Gretchen Rubin shares a personal journey of self-discovery through exploring the senses, unlocking a vibrant and mindful way of living.</p>
+                </div>
                 <div class="button-box">
-                    <a href="products.html" target="_blank">Add to Cart</a>
+                    <a class="shop-now" href="products.html" target="_blank">Add to Cart</a>
                 </div>
             </div>
-            <div>
+            <div class="featured-box">
                 <h2>Top Sales This Month</h2>
-                <img src="img/book2.jpg" alt="Top Sales">
-                <p>Ikigai by Hector Garcia explores the Japanese philosophy of finding purpose, happiness, and fulfillment in everyday life.</p>
-                <div class="button-box">
-                    <a href="products.html" target="_blank">Add to Cart</a>
+                <img class="featured-books" src="img/book2.jpg" alt="Top Sales">
+                <div class="featured-desc">
+                    <p>Ikigai by Hector Garcia explores the Japanese philosophy of finding purpose, happiness, and fulfillment in everyday life.</p>
+                </div>
+                    <div class="button-box">
+                    <a class="shop-now" href="products.html" target="_blank">Add to Cart</a>
                 </div>
             </div>
-            <div>
+            <div class="featured-box">
                 <h2>Highly Recommended</h2>
-                <img src="img/book1.jpg" alt="New Arrival">
-                <p>Atomic Habits by James Clear offers practical strategies for building positive habits and making transformative changes in life.</p>
+                <img class="featured-books" src="img/book1.jpg" alt="New Arrival">
+                <div class="featured-desc">
+                    <p>Atomic Habits by James Clear offers practical strategies for building positive habits and making transformative changes in life.</p>
+                </div>
                 <div class="button-box">
-                    <a href="products.html" target="_blank">Add to Cart</a>
+                    <a class="shop-now" href="products.html" target="_blank">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+        <section class="book-genres">
+            <div class="section-header">
+                <div class="folder">
+                    <img class="folder-img" src="img/folder.png" alt="folder">
+                </div>
+                <div class="header-text">
+                    <h2>Book Genres</h2>
+                    <div class="button-box">
+                        <a href="products.html">View All ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-box">
+                <div class="carousel-container">
+                    <div class="inner-carousel">
+                        <div class="track">
+                            <div class="genre-container">
+                                <div class="genre genre1" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre2" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre3" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre4" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                  <div class="genre genre5" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre6" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre7" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre8" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre9" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="genre-container">
+                                <div class="genre genre10" onclick="window.location.href='products.html'"></div>
+                            </div>
+                        </div>
+                        <div class="nav">
+                            <button class="prev">&#8592;</button>
+                            <button class="next">&#8594;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="crafting-products">
+            <div class="section-header">
+                <div class="folder">
+                    <img class="folder-img" src="img/folder.png" alt="folder">
+                </div>
+                <div class="header-text">
+                    <h2>Crafting</h2>
+                    <div class="button-box">
+                        <a href="products.html">View All ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-box">
+                <div class="carousel-container2">
+                    <div class="inner-carousel2">
+                        <div class="track2">
+                            <div class="crafts-container">
+                                <div class="crafts crafts1" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts2" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts3" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts4" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts5" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts6" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts7" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts8" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts9" onclick="window.location.href='products.html'"></div>
+                            </div>
+                            <div class="crafts-container">
+                                <div class="crafts crafts10" onclick="window.location.href='products.html'"></div>
+                            </div>
+                        </div>
+                        <div class="nav2">
+                            <button class="prev2">&#8592;</button>
+                            <button class="next2">&#8594;</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
-            <h2>Book Genres</h2>
-            <div class="button-box">
-                <a href="products.html" target="_blank">View All</a>
-            </div>
-            <div id="genre-box">
-                <ul>
-                    <li>Fiction</li>
-                    <li>Non Fiction</li>
-                    <li>Mytery/Thriller</li>
-                    <li>Fantasy</li>
-                    <li>Science Fiction</li>
-                    <li>Romance</li>
-                    <li>Historical Fiction</li>
-                    <li>Self-help/Personal Development</li>
-                    <li>Biography/Autobiography</li>
-                    <li>Young Adult</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <h2>Crafting</h2>
-            <div class="button-box">
-                <a href="products.html" target="_blank">View All</a>
-            </div>
-            <div id="crafting-box">
-                <ul>
-                    <li>Paper and Cardstock</li>
-                    <li>Adhesives and Glues</li>
-                    <li>Cutting Tools</li>
-                    <li>Pens and Highlighters</li>
-                    <li>Stickers</li>
-                    <li>Drawing and Coloring</li>
-                    <li>Bookmarks</li>
-                    <li>Bookshelves</li>
-                    <li>Tote Bags</li>
-                    <li>Others</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <div id="promotion-box">
-                <div id="promotion-img">
-                    <img src="img/home5.jpg" alt="">
+            <div class="promotion-box">
+                <div class="promotion-img-box">
+                    <img class="promotion-img" src="img/home8.jpg" alt="">
                 </div>
-                <div id="promotion-msg">
+                <div class="promotion-msg">
                     <h2>Elevate Your Reading Experience!</h2>
                     <p>But it's not just about books. We know that you have a creative side that longs to be expressed through crafts. That's why Crafty Bookworm PH also offers a wide range of craft items and supplies. Whether you're an experienced crafter or just starting out, we have the materials you need to bring your artistic visions to life. From knitting and sewing to painting and scrapbooking, our craft section is a treasure trove of inspiration.</p>
                     <div class="button-box">
-                        <a href="products.html" target="_blank">Buy Now</a>
+                        <a class ="shop-now2" href="products.html" target="_blank">Buy Now</a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>Crafty Bookworm PH &copy; 2023 V06.25.02 - JV Rabang</p>
+        <p>Crafty Bookworm PH &copy; 2023 V07.01.02 - JV Rabang</p>
         <p><a href="site-plan.html">Site Plan</a></p>
         <p><a href="faqs.html">Contact Us</a></p>
         <div class="social">
@@ -128,15 +214,17 @@
                 <img src="img/shopee.png" alt="shopee icon">
             </a>
             <a href="https://facebook.com" target="_blank">
-                <img src="img/facebook.png" alt="fb icon">
+                <img class="footer-icon" src="img/facebook.png" alt="fb icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="img/twitter.png" alt="twitter icon">
+                <img class="footer-icon" src="img/twitter.png" alt="twitter icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="img/instagram.png" alt="instagram icon">
+                <img class="footer-icon" src="img/instagram.png" alt="instagram icon">
             </a>
         </div>
     </footer>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/carousel2.js"></script>
 </body>
 </html>
