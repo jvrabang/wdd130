@@ -29,7 +29,7 @@ header {
     background-color: #2C3F5B;
     grid-template-columns: 150px 700px auto;
     display: grid;
-    padding-right: 50x;
+    padding-right: 50px;
     padding-left: 50px;
 }
 
@@ -281,7 +281,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     background-position: center bottom;
-    background-size: center;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
