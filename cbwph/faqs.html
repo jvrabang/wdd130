@@ -32,24 +32,25 @@
             <a href="faqs.html">FAQs</a>
         </nav>
     </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img src="img/home2.jpg" alt="Person Reading">
+    <div class="hero">
+        <div class="hero-box">
+            <img class="hero-img" src="img/faq-header.jpg" alt="Books">
         </div>
-        <section id="hero-msg">
+        <div class="hero-bg2"></div>
+        <section class="hero-msg">
             <h1>How Can We Help?</h1>
-            <p>As a visitor to Crafty Bookworm PH, we want to ensure that all your questions are answered. Are you wondering if there are any discounts or promotions available on books or craft products? Our website will keep you updated with the latest deals and special offers, helping you make the most of your budget. Looking for recommendations based on your interests or age group? We've got you covered with personalized suggestions that will introduce you to new authors and genres.</p>
+            <h4>As a visitor to Crafty Bookworm PH, we want to ensure that all your questions are answered. Are you wondering if there are any discounts or promotions available on books or craft products? Our website will keep you updated with the latest deals and special offers, helping you make the most of your budget. Looking for recommendations based on your interests or age group? We've got you covered with personalized suggestions that will introduce you to new authors and genres.</h4>
             <div class="button-box">
-                <a href="products.html" target="_blank">Contact Us!</a>
+                <a class="shop-now" href="#contact-us-img">Send Us A Message!</a>
             </div>
         </section>
     </div>
     <main>
-        <section>
-            <img src="img/faq1.png" alt="faqs">
+        <section class="faq-contents">
+            <img class="faq-img" src="img/faq1.png" alt="faqs">
             <h2>Frequently Asked Questions</h2>
+            <p class="bold">We've got the answers for the frequently asked questions!</p>
             <div class="faq-texts">
-                <p class="bold">We've got the answers for the frequently asked questions!</p>
                 <button class="collapsible">What is Crafty Bookworm PH?</button>
                 <div class="content">
                 <p>Crafty Bookworm PH is an online website that specializes in selling books and crafts. We offer a wide range of books across different genres and craft supplies for various crafting projects.</p>
@@ -94,56 +95,64 @@
                 </div>
             </div>
         </section>
-        <h3 class="center">Got More Questions? Send us a message!</h3>
-        <div class="contact-grid">
-            <div id="feedback"></div>
-            <div class="container">
-                <h2>Enter details below:</h2>
-                <form>
-                    <div class="form-box">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+        <section class="faq-form">
+            <img id="contact-us-img" src="img/faq3.jpeg" alt="faqs">
+            <h2 id="contact-us">Contact Us!</h2>
+            <h3 class="bold">Got More Questions? Send us a message!</h3>
+            <div id="feedback">
+                <div class="feedback-img-box">
+                    <img class="feedback-img" src="img/faq4.jpg" alt="reading">
+                </div>
+                <div class="feedback-contents">
+                    <div class="container">
+                        <h2>Enter details below:</h2>
+                        <form>
+                            <div class="form-box">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-box">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-box">
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-box">
+                                <label for="inquiry">Inquiry:</label>
+                                <input type="text" id="inquiry" name="inquiry" required>
+                            </div>
+                            <div class="form-box">
+                                <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <div class="form-box">
+                                <input type="submit" value="Send Your Message">
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-box">
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone" required>
+                    <div class="contact-box">
+                        <div class="cbox1">
+                            <h2>Connect with Us!</h2>
+                        </div>
+                        <div class="cbox2">
+                            <img class="contact-logos" src="img/phone-call.png" alt="phone-icon">
+                        </div>
+                        <div class="cbox5"><p>(+63) 998 910 6155</p></div>
+                        <div class="cbox3">
+                            <img  class="contact-logos" src="img/email.png" alt="email-icon">
+                        </div>
+                        <div class="cbox6"><p>craftybookworm2023@gmail.com</p></div>
+                        <div class="cbox4">
+                            <img  class="contact-logos" src="img/placeholder.png" alt="location-icon">
+                        </div>
+                        <div class="cbox7"><p>Vigan City, Ilocos Sur, Philippines, 2701</p></div>
                     </div>
-                    <div class="form-box">
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-box">
-                        <label for="inquiry">Inquiry:</label>
-                        <input type="text" id="inquiry" name="inquiry" required>
-                    </div>
-                    <div class="form-box">
-                        <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <div class="form-box">
-                        <input type="submit" value="Send Your Message">
-                    </div>
-                </form>
+                </div>
             </div>
-            <div>
-                <div>
-                    <h2>Connect with Us!</h2>
-                </div>
-                <div>
-                    <img class="contact-logos" src="img/phone-call.png" alt="phone-icon">
-                </div>
-                <div><p>(+63) 998 910 6155</p></div>
-                <div>
-                    <img  class="contact-logos" src="img/email.png" alt="email-icon">
-                </div>
-                <div><p>craftybookworm2023@gmail.com</p></div>
-                <div>
-                    <img  class="contact-logos" src="img/placeholder.png" alt="location-icon">
-                </div>
-                <div><p>Vigan City, Ilocos Sur, Philippines, 2701</p></div>
-            </div>
-            <script src="#"></script>
-        </div>
+        </section>
+        <script src="scripts/faqs.js"></script>
     </main>
     <footer>
         <p>Crafty Bookworm PH &copy; 2023 V07.01.05 - JV Rabang</p>
