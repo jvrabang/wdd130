@@ -144,7 +144,7 @@ nav a:hover {
     font-size: 2em;
 }
 
-.shop-now {
+.shop-now, .popup {
     background-color: #723E48;
     color:#FAFAFA;
     text-decoration: none;
@@ -166,7 +166,7 @@ nav a:hover {
 }
 
 
-.shop-now:hover, .shop-now3:hover {
+.shop-now:hover, .shop-now3:hover, .popup:hover {
     background-color: #ac5062;
     color:#FAFAFA;
 }
@@ -558,7 +558,7 @@ footer .social img {
 }
 
 .list-of-books:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
 }
 
 .description {
@@ -635,6 +635,54 @@ footer .social img {
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -50px;
+
+}
+  
+.popup .popuptext {
+    visibility: hidden;
+    width: 400px;
+    height: 200px;
+    background-color: #2C3F5B;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 30px;
+    position: absolute;
+    top: -250%;
+    left: 50%;
+    font-size: 1.8em;
+    transform: translate(-50%, -50%);
+    }
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.close-btn {
+    position: absolute;
+    top: 1px;
+    right:10px;
+    cursor: pointer;
+}
 
 /* * {
     border: 1px solid blue;
